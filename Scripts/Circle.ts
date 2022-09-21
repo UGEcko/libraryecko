@@ -1,4 +1,3 @@
-import { Wall } from "https://deno.land/x/remapper@2.1.0/src/mod.ts"
 export function createCircle(trackN: string, startBeat: number, dur: number, radius: number, amount: number, h: number, l: number, xPos: number, yPos: number, zPos: number, rot: number, disTime: number) {
     import { Wall } from "https://deno.land/x/remapper@2.1.0/src/mod.ts"
     for (let i = 0; i <amount; i++) {

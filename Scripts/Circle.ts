@@ -1,4 +1,4 @@
-
+import { Wall, Difficulty, rand, CustomEvent, EASE } from "https://deno.land/x/remapper@2.1.0/src/mod.ts"
 export function Circ(trackN: string, startBeat: number, dur: number, radius: number, amount: number, h: number, l: number, xPos: number, yPos: number, zPos: number, rot: number, disTime: number) {
     for (let i = 0; i <amount; i++) {
         let angle = Math.PI*2 / amount

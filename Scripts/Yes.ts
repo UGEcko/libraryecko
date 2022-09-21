@@ -1,1 +1,1 @@
-export * as CreateCirc from "./Circle.ts"
+export * from "./Circle.ts"

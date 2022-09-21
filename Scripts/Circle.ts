@@ -17,5 +17,6 @@ export function createCircle(trackN: string, startBeat: number, dur: number, rad
         wall.position = [sx,sy,0]
         wall.animate.definitePosition = [0,0,zPos]
         wall.color = [1,1,1,1]
+        wall.push()
     }
 }

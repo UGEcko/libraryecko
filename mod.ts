@@ -1,5 +1,4 @@
 import { notesBetween, CustomEvent, Note } from "https://deno.land/x/remapper@2.1.0/src/mod.ts"
-import { Notes } from "./notes.ts"
 
 type presets = ["NoBlock","NoArrow"]
     

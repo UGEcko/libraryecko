@@ -1,4 +1,4 @@
-import { Difficulty, ModelScene, Geometry, notesBetween, CustomEvent, Note } from "https://deno.land/x/remapper@2.1.0/src/mod.ts"
+import { notesBetween, CustomEvent, Note } from "https://deno.land/x/remapper@2.1.0/src/mod.ts"
 import { Notes } from "./notes.ts"
 
 type presets = ["NoBlock","NoArrow"]
@@ -13,7 +13,7 @@ type presets = ["NoBlock","NoArrow"]
  * @param {string} track - Track that notes are added to  
  * @param {number} preset - Preset for the notes. 1 = NoBlock 2 = NoArrow None = Just track applied       
  */
-function NotesB(startbeat:number, endbeat:number, track:string, preset:number|undefined) {
+export function NotesB(startbeat:number, endbeat:number, track:string, preset:number|undefined) {
     if(preset == 1){
         notesBetween(startbeat, endbeat, x => {
         x.track.value = track
